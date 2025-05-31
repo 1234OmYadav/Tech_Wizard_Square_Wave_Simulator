@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the fundamental frequency of a square wave if its period is 0.02 seconds?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "50 Hz",
+        "b": "25 Hz",
+        "c": "100 Hz",
+        "d": "10 Hz"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct! The fundamental frequency is calculated as \\( f = \\frac{1}{T} \\), where \\( T \\) is the period.",
+        "b": "Incorrect. This is not the correct calculation for the fundamental frequency.",
+        "c": "Incorrect. This is not the correct calculation for the fundamental frequency.",
+        "d": "Incorrect. This is not the correct calculation for the fundamental frequency."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which harmonics are present in a square wave?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Only odd harmonics",
+        "b": "Only even harmonics",
+        "c": "Both odd and even harmonics",
+        "d": "No harmonics"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct! A square wave contains only odd harmonics (1st, 3rd, 5th, etc.).",
+        "b": "Incorrect. A square wave does not contain even harmonics.",
+        "c": "Incorrect. A square wave contains only odd harmonics.",
+        "d": "Incorrect. A square wave has harmonics."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the relationship between the amplitude of the harmonics and their frequency in a square wave?",
+      "answers": {
+        "a": "Amplitude decreases with increasing frequency",
+        "b": "Amplitude increases with increasing frequency",
+        "c": "Amplitude remains constant",
+        "d": "Amplitude is zero for all harmonics"
+      },
+      "explanations": {
+        "a": "Correct! The amplitude of the harmonics decreases as the frequency increases.",
+        "b": "Incorrect. The amplitude does not increase with frequency.",
+        "c": "Incorrect. The amplitude varies with frequency.",
+        "d": "Incorrect. There are non-zero amplitudes for the harmonics."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If the fundamental frequency of a square wave is 100 Hz, what is the frequency of the third harmonic?",
+      "answers": {
+        "a": "300 Hz",
+        "b": "200 Hz",
+        "c": "100 Hz",
+        "d": "400 Hz"
+      },
+      "explanations": {
+        "a": "Correct! The third harmonic is three times the fundamental frequency: \\( 3 \\times 100 \\text{ Hz} = 300 \\text{ Hz} \\).",
+        "b": "Incorrect. This is the frequency of the second harmonic.",
+        "c": "Incorrect. This is the fundamental frequency.",
+        "d": "Incorrect. This is not the correct calculation for the third harmonic."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the phase shift of the harmonics in a square wave compared to the fundamental frequency?",
+      "answers": {
+        "a": "All harmonics are in phase",
+        "b": "All harmonics are 90 degrees out of phase",
+        "c": "All harmonics are 180 degrees out of phase",
+        "d": "Harmonics have varying phase shifts"
+      },
+      "explanations": {
+        "a": "Incorrect. The harmonics are not all in phase with the fundamental.",
+        "b": "Incorrect. The phase shift is not uniform across all harmonics.",
+        "c": "Incorrect. The phase shift is not uniform across all harmonics.",
+        "d": "Correct! Harmonics have varying phase shifts relative to the fundamental frequency."
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
