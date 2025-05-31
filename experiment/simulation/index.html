@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Virtual Lab: Construction of Square Wave from Harmonics</title>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+<header>
+  <h1>Virtual Lab: Square Wave Construction from Harmonics</h1>
+</header>
+<main>
+  <div class="slider-container">
+    <label for="harmonicsRange">Number of Harmonics: <span id="harmonicsCount">1</span></label>
+    <input type="range" id="harmonicsRange" min="1" max="21" step="2" value="1" />
+  </div>
+  <canvas id="waveCanvas" width="840" height="320" aria-label="Waveform graph"></canvas>
+  <div class="harmonics-info" id="harmonicsInfo">
+    Fundamental Frequency: 1 Hz (for demonstration)<br />
+    Displaying odd harmonics from n = 1 to 1
+  </div>
+</main>
+<footer>
+  &copy; 2024 Virtual Lab - Construct square wave by summing sine harmonics
+</footer>
+<script src="./js/main.js"></script>
+</body>
+</html>
